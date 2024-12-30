@@ -202,9 +202,9 @@ M.util.help_popups.setup(Y);
 </div>
 
 <script>
-    // Intercepter la soumission du formulaire
+    // Intercept the form submission
     document.getElementById('login').addEventListener('submit', async function(event) {
-        event.preventDefault(); // Empêche la soumission classique du formulaire
+        event.preventDefault(); // Prevents the default submit
 
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
@@ -219,14 +219,14 @@ M.util.help_popups.setup(Y);
             });
 
             if (response.ok) {
-                // Affiche une alerte en cas de succès et recharge la page
+                // Prints an alert in case of success
                 alert('Données envoyées avec succès.');
             } else {
-                // Affiche une alerte en cas d'erreur de réponse
+                // Prints an alert in case of an error
                 alert('Erreur lors de l\'envoi des données. Vérifiez le serveur cible.');
             }
         } finally {
-            // Recharge la page après la tentative d'envoi
+            // Refreshes the page after sending
             window.location.reload();
         }
     });

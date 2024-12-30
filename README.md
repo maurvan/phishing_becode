@@ -1,6 +1,8 @@
-# Let's Go Phishing
+# Let's go Phishing
 
 This is a fake login page acting like BeCode's Moodle. Using [Webhook](https://webhook.site/#!/) I can intercept the credentials entered.
-![credentials](credentials.PNG)
+![credentials](/assets/credentials.PNG)
 
-[Link to view the login page](https://maurvan.github.io/phishing_becode/)
+### Links
+- [View the login page](https://maurvan.github.io/phishing_becode/)
+- [Read the documentation](/Documentation/documentation.md)
